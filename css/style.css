@@ -1,0 +1,59 @@
+/* * {
+        color: red;
+      } */
+
+/* #second {
+        color: red;
+      }
+
+      .blue-para {
+        color: blue;
+      } */
+
+/* Descendant selector */
+/* #main p {
+        color: red;
+      } */
+
+/* Child selector */
+
+/* #main > p {
+        color: red;
+      } */
+
+/* p {
+        color:red
+        color: blue;
+        color: rgba(241, 23, 31, 0.5);
+        color: #0ddb21;
+        background-color: yellow;
+      } */
+
+/* Absolute units -> px,mm,cm,in,pt */
+/* Relative units -> %, rem, em */
+/* 
+      #parent {
+        background-color: yellow;
+        width: 10rem;
+        height: 300px;
+        font-size: 50px;
+      }
+
+      #child {
+        background-color: red;
+        width: 2em;
+        height: 100px;
+      } */
+
+@font-face {
+  font-family: myFont;
+  src: url("./font/playfair.ttf");
+}
+
+#main-div {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 48px;
+  /* font-weight: bold; */
+  /* font-variant: small-caps; */
+  /* font-style: oblique; */
+}

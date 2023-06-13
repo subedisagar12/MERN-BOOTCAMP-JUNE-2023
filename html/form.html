@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Form</title>
+  </head>
+  <body>
+    <form action="table.html" method="GET" enctype="multipart/form-data">
+      <div>
+        <label for="username">Username</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          required
+          minlength="5"
+          maxlength="10"
+          value="ram"
+        />
+      </div>
+
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" readonly value="abcd" />
+      </div>
+
+      <div>
+        <label for="password">Password</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          required
+          minlength="5"
+          maxlength="20"
+          placeholder="Password"
+        />
+      </div>
+
+      <div>
+        <label for="age">Age</label>
+        <input type="number" id="age" min="1" max="200" name="age" />
+      </div>
+
+      <div>
+        <label for="dob">Date of Birth</label>
+        <input
+          type="date"
+          id="dob"
+          name="dob"
+          min="2023-06-01"
+          max="2023-07-30"
+        />
+      </div>
+
+      <div>
+        <label for="profile-picture">Select Profile Image</label>
+        <input type="file" id="profile-picture" accept=".pdf" />
+      </div>
+
+      <!-- checkbox -->
+      <div>
+        Interested Topics:
+
+        <div>
+          <label for="entertainment">Entertainment</label>
+          <input
+            type="checkbox"
+            id="entertainment"
+            name="interested-topic"
+            value="Entertainment"
+            checked
+          />
+        </div>
+
+        <div>
+          <label for="science">Science and Tech</label>
+          <input
+            type="checkbox"
+            id="science"
+            name="interested-topic"
+            value="science"
+          />
+        </div>
+      </div>
+
+      <!-- Radio Button -->
+
+      <div>
+        Gender:
+
+        <div>
+          <label for="male">Male</label>
+          <input type="radio" id="male" name="gender" checked />
+        </div>
+
+        <div>
+          <label for="female">Female</label>
+          <input type="radio" id="female" name="gender" />
+        </div>
+
+        <div>
+          <label for="others">Others</label>
+          <input type="radio" id="others" name="gender" />
+        </div>
+      </div>
+
+      <!-- Select -->
+
+      <!-- Tel <input type="tel" /> <br />
+      URL <input type="url" /> <br />
+      Color <input type="color" />
+
+      <input type="hidden" value="12" name="hidden" /> -->
+
+      <div>
+        <label for="country">Select Country</label>
+        <select id="country" name="country">
+          <option value="CH">China</option>
+          <option value="NP">Nepal</option>
+          <option value="US" selected>USA</option>
+        </select>
+      </div>
+
+      <!-- Text area -->
+      <div>
+        <label for="bio">Bio</label>
+        <textarea name="bio" rows="10" cols="10">Hello</textarea>
+      </div>
+
+      <input type="submit" value="Register" />
+      <input type="reset" />
+
+      <a href="mailto:subedisagar12@gmail.com">Email Us</a>
+      <a href="tel:+977-98768684567">Call Us Now</a>
+
+      <!-- <button type="submit">Submit</button>
+      <button type="reset">Reset</button> -->
+    </form>
+  </body>
+</html>
