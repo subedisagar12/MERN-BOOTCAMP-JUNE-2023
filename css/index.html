@@ -20,32 +20,31 @@
     />
     <!-- Internal css -->
     <style>
-      a {
+      .title {
         color: green;
-        text-decoration: none;
+        font-size: 50px;
       }
 
-      a:visited {
-        color: aquamarine;
-      }
-
-      a:hover {
-        color: blue;
-        text-decoration: underline;
-      }
-
-      a:focus {
-        color: brown;
-      }
-
-      a:active {
+      .subtitle {
         color: red;
       }
+
+      /* @media print {
+        .title {
+          color: brown;
+        }
+      } */
+
+      /* @media (min-width: 500px), (max-width: 700px) {
+        .title {
+          background-color: yellow;
+          color: red;
+        }
+      } */
     </style>
   </head>
   <body>
-    <a href="https://www.youtube.com">Go to youtube</a>
-
-    <a href="https://www.instagram.com">Go to youtube</a>
+    <h1 class="title">Title</h1>
+    <h2 class="subtitle">This is a subtitle</h2>
   </body>
 </html>
