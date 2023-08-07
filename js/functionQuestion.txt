@@ -1,0 +1,5 @@
+1. Write a function that returns the minimum of two given numbers
+2. Write a function that returns the length of a given string
+3.Write function that returns the sum of an given array.
+4.Given an array of string, write a function that returns the total number of string that starts with "s"
+5.Write a function that checks if a number is divisible by 7 or not.

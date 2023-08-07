@@ -71,13 +71,38 @@
 // console.log(message);
 // console.log(phrase);
 
-let student = {};
-
-let user = {};
-
-console.log(student === user);
-
 // student.name = "Rahul";
 
 // console.log(student.name);
 // console.log(user.name);
+
+// console.log(user);
+
+// Object.assign(user, student);
+
+// console.log(user);
+
+// let user = {
+//   name: "John",
+// };
+
+// let student = {};
+
+// Object.assign(student, user);
+
+// console.log(user);
+
+// let permission1 = {
+//   canView: true,
+//   name: "Raj",
+// };
+
+// let permission2 = {
+//   canEdit: false,
+//   name: "Rahul",
+// };
+
+// Object.assign(user, permission2, permission1);
+// // Object.assign(user, permission2);
+
+// console.log(user);
