@@ -7,6 +7,7 @@ const userRoutes = require("./routes/userRoutes");
 const app = express();
 
 const PORT = 8888;
+console.log("Hi");
 
 app.use(express.json());
 
