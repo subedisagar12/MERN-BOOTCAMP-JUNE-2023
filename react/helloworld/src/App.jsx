@@ -6,11 +6,12 @@ import ListRendering from "./components/ListRendering";
 import Test from "./components/Test/Test";
 import FormHandling from "./components/FormHandling";
 import SideEffect from "./components/SideEffect";
+import APICalling from "./components/APICalling";
 
 function App() {
   return (
     <>
-      <SideEffect />
+      <APICalling />
       {/* <FormHandling /> */}
       {/* <Test /> */}
       {/* <ListRendering /> */}
