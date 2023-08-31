@@ -4,7 +4,7 @@ const CreateProduct = async (req, res) => {
     let newProduct = await Product.create({
       name: req.body.name,
       price: req.body.price,
-      image: req.body.image,
+      image: req.file?.path,
       discount_price: req.body.discount_price,
       is_featured: req.body.is_featured,
       tags: req.body.tags,

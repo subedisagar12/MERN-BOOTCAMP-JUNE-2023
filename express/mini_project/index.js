@@ -13,6 +13,8 @@ dotenv.config();
 
 app.use(cors());
 app.use(express.json());
+// Setting up static file
+app.use("/uploads", express.static("uploads/"));
 // app.use(verifyToken);
 
 app.use("/product", productRoutes);
