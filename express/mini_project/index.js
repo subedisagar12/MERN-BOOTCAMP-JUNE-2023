@@ -21,7 +21,7 @@ app.use("/user", userRoutes);
 app.listen(PORT, () => {
   console.log(`Server running at port ${PORT}`);
   mongoose
-    .connect("mongodb://localhost:27017/mini_project")
+    .connect("mongodb://127.0.0.1:27017/mini_project")
     .then(() => {
       console.log("Connected to database");
     })
