@@ -7,11 +7,13 @@ import Test from "./components/Test/Test";
 import FormHandling from "./components/FormHandling";
 import SideEffect from "./components/SideEffect";
 import APICalling from "./components/APICalling";
+import PostAPI from "./components/PostAPI";
 
 function App() {
   return (
     <>
-      <APICalling />
+      <PostAPI />
+      {/* <APICalling /> */}
       {/* <FormHandling /> */}
       {/* <Test /> */}
       {/* <ListRendering /> */}
